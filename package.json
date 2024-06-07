@@ -1,0 +1,30 @@
+{
+  "name": "students-info",
+  "version": "1.0.0",
+  "description": "Backend for students-info app. This is only has the functionality to Create, Read, Update and Delete Data form Student table. The technology I use are Node.js Experss.js MySQL and postman for api testing.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "node",
+    "js",
+    "express",
+    "expressjs",
+    "postman",
+    "mysql",
+    "sql"
+  ],
+  "author": "saied83",
+  "license": "ISC",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.4.5",
+    "experss": "^0.0.1-security",
+    "express": "^4.19.2",
+    "morgan": "^1.10.0",
+    "mysql2": "^3.10.0",
+    "nodemon": "^3.1.2"
+  }
+}
