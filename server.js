@@ -22,7 +22,7 @@ app.get("/test", (req, res) => {
 });
 
 // port
-const PORT = process.env.PORT || 8000;
+const PORT = process.env.PORT || 5000;
 
 // conditionally listen
 mySqlPool
@@ -36,5 +36,5 @@ mySqlPool
     });
   })
   .catch((err) => {
-    console.log(err.status);
+    console.log(err);
   });
